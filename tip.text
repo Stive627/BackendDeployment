@@ -1,0 +1,5 @@
+First create the files Dockerfile and .dockerignore. Copy and paste the content of these file and paste there.
+sudo docker build -t backenddeployment2 .
+sudo docker images
+sudo docker run --name backenddeployment2 -p 88:8080 -d backenddeployment2
+sudo docker ps
