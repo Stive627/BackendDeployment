@@ -14,7 +14,7 @@ sudo docker ps
 the dockerfile for react app
 
 # Use the Node.js image
-FROM node:19-alpine
+FROM node:20-alpine
 
 # Set the working directory
 WORKDIR /home/node/app
